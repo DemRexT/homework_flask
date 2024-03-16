@@ -1,0 +1,10 @@
+{% extends "mag.html" %}
+
+{% block content %}
+    <h2>Название товара</h2>
+    <img src= "{{ url_for('static', filename='buds.jpg') }}" alt="Изображение товара">
+    <p>Описание товара</p>
+    <p>Цена: $100</p>
+    <button>Добавить в корзину</button>
+{% endblock %}
+
