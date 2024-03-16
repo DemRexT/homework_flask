@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="/hello" method="post">
+    <input type="text" name="name" placeholder="Имя">
+    <input type="text" name="mail" placeholder="Почта">
+    <button type="submit"> Отправить</button>
+</form>
+
+
+{% endblock %}

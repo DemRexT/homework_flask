@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>Здравствуйте, {{ name }}</p>
+<p>Ваша почта: {{ mail }}</p>
+
+<form action="/nameout/">
+    <button type="submit"> Выход</button>
+</form>
+
+{% endblock %}
